@@ -39,3 +39,6 @@
     Yes
     No
 
+    npm test 
+    para iniciar o jest. Este script de teste está definido em package.json
+
