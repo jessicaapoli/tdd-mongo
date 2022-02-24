@@ -38,7 +38,15 @@
     Yes
     Yes
     No
-
+s
     npm test 
     para iniciar o jest. Este script de teste está definido em package.json
+
+
+    exemplo TS 
+
+    isValid (email: string): boolean {} 
+    isValid receberá um email, que é uma string e deverá retornar num booleano.
+
+    método (parâmetro: tipo do parâmeto): tipo de retorno do método.
 
