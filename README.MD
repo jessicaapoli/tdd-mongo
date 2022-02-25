@@ -50,3 +50,7 @@ s
 
     método (parâmetro: tipo do parâmeto): tipo de retorno do método.
 
+    ### Aula 9 - Considerações 
+    Aplicou-se: 
+    i. ISP - Interface Segration Principle
+    ii. S do SOLID - Single Responsability Principle - Segregar as Responsabilidades
