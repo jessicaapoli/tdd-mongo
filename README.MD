@@ -123,3 +123,9 @@ s
     Aplicou-se: 
     i. ISP - Interface Segration Principle
     ii. S do SOLID - Single Responsability Principle - Segregar as Responsabilidades
+
+### Criando o EmailValidatorAdapter e mockando o validator
+    obs: sut means system under test
+    npm i validator@12.1.0
+    npm i @types/validator -D 
+        ↑Esta é a biblioteca oficial do typescript para que ele reconheça os tipos do validator.
