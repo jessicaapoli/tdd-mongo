@@ -1,3 +1,30 @@
+### 3 Configurando o git
+    no terminal: 
+        git config --global core.editor code 
+        git config --global --edit
+
+    no arquivo .gitconfig 
+        [user]
+	        email = jessica.mec.ctc@gmail.com
+	        name = Jéssica A. 
+        [push]
+	        followTags = true
+        [core]
+	        editor = code --wait
+        [alias]
+	        s = !git status -s
+	        c = !git add --all && git commit -m
+	        l = !git log --pretty=format:'%C(yellow)%h %C(white)%d%C(cyan) %s %C(white)- %C(magenta)%cn%C(white), %C(blue)%cr'
+    
+    observações: 
+        %cn = commit name
+        %H = hash completa do commit
+        %h = hash reduzida do commit
+        %d = mostra a branch
+        %s = título do commmit
+        %cr = data relativa do commit
+
+        study about mock and spyOn
 # Comand line
     git init
     npm init -y
