@@ -25,7 +25,7 @@
         %cr = data relativa do commit
 
         study about mock and spyOn
-### About jest
+### 11 About jest
 
     configurações do jest no package.json 
 
@@ -40,16 +40,17 @@
 
     flags: 
     --runInBand: faz com que todos os testes sejam rodados de forma sequencial. 
+    -c:  executa os comandos especificados no arquivo jest-unit-config para rodar apenas os arquivos cuja extensão corresponde a .spec.ts
 
     ao rodar npm rum test:ci será criada a pasta coverage. Ela deve ser ignorada pelo git e pelo eslint. Logo, devemos incluir o nome da pasta em ambos os arquivos. Além disso, na pasta .husky.json configuramos para o husky para rodar o comado npm run test:ci antes que o push seja realizado.
     
     no .husky.json: 
-    {
+    
     "hooks": {
         "pre-commit":"lint-staged",
         "pre-push": "npm run test:ci"
     }
-}
+    
 
     test:staged é rodado toda vez que fazemos um commit
 
@@ -64,10 +65,7 @@
 
     criar arquivo jest-unit-config.js chamando o arquivo jest.config.js para definir no package.json a diferença entre testes unitários e testes de integração com o objetivo de conseguir direcionar o jest para rodar especificamente os tipos de testes que desejamos, ao invés de rodar todos os arquivos de teste de uma única vez.
 
-    em package.json configuramos: 
-        "test:unit": "npm test -- --watch -c jest-unit-config.js",
-
-        em que o -c executa os comandos especificados no arquivo jest-unit-config para rodar apenas os arquivos cuja extensão corresponde a .spec.ts
+       
     
 # Comand line
     git init
