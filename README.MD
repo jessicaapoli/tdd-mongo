@@ -129,3 +129,9 @@ s
     npm i validator@12.1.0
     npm i @types/validator -D 
         ↑Esta é a biblioteca oficial do typescript para que ele reconheça os tipos do validator.
+
+
+### Criando BcriptAdapter e mockando o bcript
+    Começo da criação da camada de infraestrutura 
+    npm install bcrypt
+    npm i @types/bcript -D
