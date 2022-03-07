@@ -131,7 +131,11 @@ s
         ↑Esta é a biblioteca oficial do typescript para que ele reconheça os tipos do validator.
 
 
-### Criando BcriptAdapter e mockando o bcript
+### 15 Criando BcriptAdapter e mockando o bcript
     Começo da criação da camada de infraestrutura 
     npm install bcrypt
-    npm i @types/bcript -D
+    npm i @types/bcrypt -D
+
+### 16 Configurando o MongoDb em memória
+    
+    @shelf/jest-mongodb     npmjs.com/package/@shelf/jest-mongodb
