@@ -139,3 +139,10 @@ s
 ### 16 Configurando o MongoDb em memória
     
     @shelf/jest-mongodb     npmjs.com/package/@shelf/jest-mongodb
+    no projeto fizemos: 
+    npm i -D @shelf/jest-mongodb @types/mongodb
+
+    Sempre antes dos testes de integração deevemos conectar ao mongodb 
+    e desconectar após os testes.
+
+    
