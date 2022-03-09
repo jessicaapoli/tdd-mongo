@@ -141,8 +141,14 @@ s
     @shelf/jest-mongodb     npmjs.com/package/@shelf/jest-mongodb
     no projeto fizemos: 
     npm i -D @shelf/jest-mongodb @types/mongodb
+    npm i mongodb
 
     Sempre antes dos testes de integração deevemos conectar ao mongodb 
     e desconectar após os testes.
 
-    
+    Ler documentação para entender as alterações que foram feitas na lib para a versão atual: 
+    https://github.com/mongodb/node-mongodb-native/blob/4.1/docs/CHANGES_4.0.0.md
+
+    Git stash para commitar sem ter problema com o arquivo de test.
+    Rever o video com a 
+
