@@ -152,3 +152,6 @@ s
     Git stash para commitar sem ter problema com o arquivo de test.
     Rever o video com a 
 
+### 18 Testando middlewares do express
+    npm i express@4.17.1
+    npm i @types/express
