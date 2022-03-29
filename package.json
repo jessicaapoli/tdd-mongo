@@ -43,6 +43,8 @@
     "express": "^4.17.3",
     "mongodb": "^3.5.1",
     "mongodb-memory-server": "^8.4.0",
+    "node": "^17.7.1",
     "validator": "^12.1.0"
-  }
+  },
+  "repository": "https://github.com/jessicaapoli/tdd-mongo.git"
 }
